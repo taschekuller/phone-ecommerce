@@ -1,0 +1,68 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+  --mainOrange:#f5b01df6;
+  --mainDarkOrange:#fa8c0f;
+}
+body{
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color:var(--mainDark) !important;
+}
+.text-title{
+  font-family: 'Oswald', cursive !important;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue{
+  color: var(--mainBlue);
+}
+.text-darkorange{
+  color: #ffae00;
+}
+.text-titleorange{
+  color: #fa8c0f;
+}
+.text-bright{
+  color: var(--lightBlue)
+}
+.products-color{
+  color:black !important;
+}
+.nav-store:hover{
+  transform: scale(1.05);
+  transition:all 0.3s ease-in-out;
+}
+.products-color:hover{
+  transform: scale(1.05);
+  border-bottom: 1px solid black;
+  transition:all 0.3s ease-in-out;
+}
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size:0.8rem !important;
+  color:var(--mainDark);
+  border-radius: 0 !important;
+  border:0.05rem solid var(--mainDark) !important;
+}
+.btn-black:hover{
+  transform: scale(1.1);
+  background:var(--mainDark);
+  color:var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor:pointer;
+  font-size:1.2rem;
+  color: var(--mainYellow);
+}
+.cart-icon:hover{
+  transform: scale(1.25);
+}
+/* .modal-open .modal-bg{
+  filter:blur(1px);
+}   ---> while modal is open make bg blury */   
+
